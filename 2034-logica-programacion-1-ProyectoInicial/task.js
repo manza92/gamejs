@@ -76,3 +76,80 @@ alert(`Tu saldo es de $${saldoCuenta}.`);
 ```;
 let nombre = prompt("Por favor, ingresa tu nombre");
 alert(`¡Bienvenido, ${nombre}!`);
+
+
+// let contador = 1;
+
+// while (contador < 4) {
+//   console.log("Ejecutando la iteración " + contador);
+//   contador = contador + 1;
+// }
+
+// let qtdNumeros = prompt(
+//   "Digite la cantidad de números para el cálculo del promedio:"
+// );
+// let soma = 0;
+// let contador = qtdNumeros;
+
+// while (contador > 0) {
+//   let numero = parseInt(prompt("Digite el numero:"));
+
+//   soma += numero;
+//   contador--;
+// }
+
+// let promedio = soma / qtdNumeros;
+
+// console.log(promedio);
+
+// let idad = 25;
+// let tieneLicencia = true;
+
+// // si la edad es mayor de 18 y tiene una licencia...
+// if (idad > 18 && tieneLicencia) {
+//   console.log("Puede conducir!");// si tiene manzana o tiene banama…
+// if (tieneManzana|| tieneBanana) {
+//   console.log("Tienes frutas!");
+// } else {
+//   console.log("No tienes frutas.");
+// }
+
+
+// let numeroSecreto = Math.floor(Math.random() * 10);
+// for (let intentos = 0; intentos < 5; intentos++) {
+//   let intento = parseInt(prompt("Ingrese un número del 0 al 9:"));
+//   if (intento == numeroSecreto) {
+//     alert(`¡Eso es! Descubriste el número secreto ${numeroSecreto}`);
+//     break;
+//   }
+// }
+// } else {
+//   console.log("No puede conducir!");
+// }
+// // si tiene manzana o tiene banama…
+// if (tieneManzana|| tieneBanana) {
+//   console.log("Tienes frutas!");
+// } else {
+//   console.log("No tienes frutas.");
+// }
+
+
+// let numeroSecreto = Math.floor(Math.random() * 10);
+// for (let intentos = 0; intentos < 5; intentos++) {
+//   let intento = parseInt(prompt("Ingrese un número del 0 al 9:"));
+//   if (intento == numeroSecreto) {
+//     alert(`¡Eso es! Descubriste el número secreto ${numeroSecreto}`);
+//     break;
+//   }
+// }
+
+let numeroSecreto = Math.floor(Math.random() * 10);
+let intentos = 0;
+while (intentos < 5) {
+  let intento = parseInt(prompt("Ingrese un número del 0 al 9:"));
+  intentos++;
+  if (intento == numeroSecreto) {
+    alert(`¡Eso es! Descubriste el número secreto ${numeroSecreto}`);
+    break;
+  }
+}
